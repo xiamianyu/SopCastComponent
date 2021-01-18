@@ -1,12 +1,9 @@
 package com.laifeng.sopcastdemo;
 
-import android.app.Activity;
 import android.app.Dialog;
-import android.content.DialogInterface;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
-import android.support.v7.app.AlertDialog;
 import android.text.TextUtils;
 import android.view.GestureDetector;
 import android.view.LayoutInflater;
@@ -33,9 +30,12 @@ import com.laifeng.sopcastsdk.utils.SopCastLog;
 import com.laifeng.sopcastsdk.video.effect.GrayEffect;
 import com.laifeng.sopcastsdk.video.effect.NullEffect;
 
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+
 import static com.laifeng.sopcastsdk.constant.SopCastConstant.TAG;
 
-public class LandscapeActivity extends Activity {
+public class LandscapeActivity extends AppCompatActivity {
     private CameraLivingView mLFLiveView;
     private MultiToggleImageButton mMicBtn;
     private MultiToggleImageButton mFlashBtn;

@@ -2,7 +2,6 @@ package com.laifeng.sopcastdemo;
 
 import android.app.Dialog;
 import android.os.Bundle;
-import android.support.v7.app.AlertDialog;
 import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -14,10 +13,12 @@ import android.widget.Toast;
 
 import com.laifeng.sopcastsdk.configuration.AudioConfiguration;
 import com.laifeng.sopcastsdk.configuration.VideoConfiguration;
-import com.laifeng.sopcastsdk.stream.packer.rtmp.RtmpPacker;
 import com.laifeng.sopcastsdk.screen.ScreenRecordActivity;
+import com.laifeng.sopcastsdk.stream.packer.rtmp.RtmpPacker;
 import com.laifeng.sopcastsdk.stream.sender.rtmp.RtmpSender;
 import com.laifeng.sopcastsdk.utils.SopCastLog;
+
+import androidx.appcompat.app.AlertDialog;
 
 import static com.laifeng.sopcastsdk.constant.SopCastConstant.TAG;
 

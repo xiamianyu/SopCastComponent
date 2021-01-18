@@ -1,6 +1,5 @@
 package com.laifeng.sopcastdemo;
 
-import android.app.Activity;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
@@ -22,7 +21,9 @@ import com.laifeng.sopcastsdk.utils.SopCastLog;
 import com.laifeng.sopcastsdk.video.effect.GrayEffect;
 import com.laifeng.sopcastsdk.video.effect.NullEffect;
 
-public class PortraitActivity extends Activity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class PortraitActivity extends AppCompatActivity {
     private CameraLivingView mLFLiveView;
     private MultiToggleImageButton mMicBtn;
     private MultiToggleImageButton mFlashBtn;
